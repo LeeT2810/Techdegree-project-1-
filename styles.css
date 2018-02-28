@@ -44,6 +44,7 @@ a:hover {
     display: block;
     margin-right: auto;
     color: #cacaca;
+    font-size: 30px;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
