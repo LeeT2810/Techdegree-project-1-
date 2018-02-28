@@ -7,9 +7,9 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #ebe6f9;
 }
 /* Link Styles */
 
@@ -43,7 +43,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: #cacaca;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -55,9 +55,17 @@ a:hover {
   color: white
 }
 
+.into-img {
+  margin: 5px;
+  padding: 5px;
+  max-width: 400px;
+
+
+}
+
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/keys.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -67,26 +75,27 @@ header {
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 2px solid black;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
+  background-color: #cacaca;
   color: black;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
+  border: 1px solid black;
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: #cacaca;
 }
 .card {
   margin: 30px;
@@ -97,6 +106,8 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  text-align: center;
+  background-color: #f3f3f3;
 }
 .card:hover {
   border-color: #ff99ff;
@@ -110,7 +121,7 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #5e04ff;
   color: white;
   padding: 5px 10px;
   margin: 2px;
@@ -151,9 +162,7 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
+
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
